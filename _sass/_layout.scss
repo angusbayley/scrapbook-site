@@ -21,6 +21,16 @@
     margin-top: -25px;*/
 }
 
+.splash-subtitle {
+    color: $grey-color;
+    font-size: 20px;
+    margin: -290px auto 290px auto;
+    padding-top: 10px;
+    width: 200px;
+    text-align: center;
+    border-top: 1px solid $grey-color;
+}
+
 /**
  * Site header
  */
@@ -121,7 +131,6 @@
  * Site footer
  */
 .site-footer {
-    border-top: 1px solid $grey-color-light;
     padding: $spacing-unit 0;
 }
 
@@ -204,7 +213,7 @@
     list-style: none;
 
     > li {
-        margin-bottom: $spacing-unit;
+        margin-bottom: $spacing-unit / 2;
     }
 }
 
@@ -218,7 +227,10 @@
     font-size: 24px;
 }
 
-
+.page-prose {
+    font-size: 15px;
+    color: $grey-color;   
+}
 
 /**
  * Posts
