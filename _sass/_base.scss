@@ -43,6 +43,9 @@ ul, ol, dl, figure,
     margin-bottom: $spacing-unit / 2;
 }
 
+p:last-child {
+    margin-bottom: 0px;
+}
 
 
 /**
@@ -91,7 +94,17 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: $base-font-weight;
 }
 
+/**
+ * Horizontal rule
+ */
 
+hr {
+    margin: $spacing-unit;
+    border: 0;
+    border-top: 1px solid;
+    color: $grey-color-light;
+
+}
 
 /**
  * Links
@@ -208,9 +221,5 @@ pre {
         width: 16px;
         height: 16px;
         vertical-align: middle;
-
-        path {
-            fill: $grey-color;
-        }
     }
 }

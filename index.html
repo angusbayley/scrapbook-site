@@ -2,26 +2,33 @@
 layout: homepage
 ---
 
-<div class="home">
 
-  <h1 class="page-heading">Upcoming</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts reversed %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span> <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
+<div class="page-content">
+  <div class="wrapper">
+    <div class="home">
+      <h1 class="page-heading">Upcoming</h1>
+      <ul class="post-list">
+        {% for post in site.posts reversed %}
+          <li>
+            <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span> <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          </li>
+        {% endfor %}
+      </ul>
+      <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+    </div>
+  </div>
 </div>
 
-<div class="home">
 
-  <h1 class="page-heading">About</h1>
-
-  <p class="page-prose">Scrapbook plays the music of Angus Bayley</p>
-
+<div class="page-content">
+  <div class="wrapper">
+    <div class="home">
+      <p class="page-prose">
+        Sitting somewhere between jazz, folk and rock, Scrapbook's tunes are each a heartfelt ode, underpinned by chord sequences that tell a story in their own right. Each musical theme is in it for the long game – pretty melodies dance and swell over the course of minutes, gradually transforming into fierce and fiery chordal riffs loaded with dark and beautiful harmony.
+      </p>
+      <p class="page-prose">
+        Scrapbook is Angus Bayley (piano, composition), Dave Hamblett (drums), Paul Trippett (bass), Kieran McLeod (trombone), Alaric Taylor (trumpet), Daisy Watkins (viola), and Nick Sigsworth (violin).
+      </p>
+    </div>
+  </div>
 </div>

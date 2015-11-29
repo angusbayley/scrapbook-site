@@ -24,7 +24,7 @@
 .splash-subtitle {
     color: $grey-color;
     font-size: 20px;
-    margin: -290px auto 290px auto;
+    margin: -290px auto 200px auto;
     padding-top: 10px;
     width: 200px;
     text-align: center;
@@ -35,9 +35,8 @@
  * Site header
  */
 .site-header {
-    border-top: 5px solid $grey-color-dark;
-    border-bottom: 1px solid $grey-color-light;
     min-height: 56px;
+    margin-bottom: $spacing-unit;
 
     // Positioning context for the mobile navigation icon
     position: relative;
@@ -97,9 +96,7 @@
                 width: 18px;
                 height: 15px;
 
-                path {
-                    fill: $grey-color-dark;
-                }
+                
             }
         }
 
@@ -135,8 +132,9 @@
 }
 
 .footer-heading {
-    font-size: 18px;
+    font-size: 20px;
     margin-bottom: $spacing-unit / 2;
+    text-align: center;
 }
 
 .contact-list,
@@ -161,16 +159,19 @@
 .footer-col-1 {
     width: -webkit-calc(35% - (#{$spacing-unit} / 2));
     width:         calc(35% - (#{$spacing-unit} / 2));
+    margin: 0;
 }
 
 .footer-col-2 {
     width: -webkit-calc(20% - (#{$spacing-unit} / 2));
     width:         calc(20% - (#{$spacing-unit} / 2));
+    margin: 0;
 }
 
 .footer-col-3 {
     width: -webkit-calc(45% - (#{$spacing-unit} / 2));
     width:         calc(45% - (#{$spacing-unit} / 2));
+    margin: 0;
 }
 
 @include media-query($on-laptop) {
@@ -229,7 +230,8 @@
 
 .page-prose {
     font-size: 15px;
-    color: $grey-color;   
+    color: $grey-color;
+ 
 }
 
 /**
