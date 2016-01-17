@@ -23,6 +23,13 @@ body {
     -o-font-feature-settings: "kern" 1;
     font-feature-settings: "kern" 1;
     font-kerning: normal;
+
+        /* Background image */
+    background: url("../med-splash-image.jpg")  no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 
@@ -37,6 +44,9 @@ ul, ol, dl, figure,
     margin-bottom: $spacing-unit / 2;
 }
 
+p:last-child {
+    margin-bottom: 0px;
+}
 
 
 /**
@@ -85,7 +95,17 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: $base-font-weight;
 }
 
+/**
+ * Horizontal rule
+ */
 
+hr {
+    margin: $spacing-unit;
+    border: 0;
+    border-top: 1px solid;
+    color: $grey-color-light;
+
+}
 
 /**
  * Links
@@ -160,9 +180,13 @@ pre {
     max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
     margin-right: auto;
     margin-left: auto;
+    padding-top: calc((#{$spacing-unit}) - 10px);
+    padding-bottom: calc((#{$spacing-unit}) - 15px);
     padding-right: $spacing-unit;
     padding-left: $spacing-unit;
     @extend %clearfix;
+    background-color: rgba(340,340,340,0.8);
+
 
     @include media-query($on-laptop) {
         max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
@@ -198,9 +222,5 @@ pre {
         width: 16px;
         height: 16px;
         vertical-align: middle;
-
-        path {
-            fill: $grey-color;
-        }
     }
 }

@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "The Proud Archivist, London"
+date:   2015-12-20 19:00:00 +0000
+categories: jekyll update
+---
+A mere two weeks after recording our first album, we're playing at The Proud Archivist on the Regents Canal in what will be one of the latest gigs you can reasonably get away with without playing Christmas tunes.

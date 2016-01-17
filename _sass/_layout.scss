@@ -1,10 +1,42 @@
 /**
+ * Homepage splash
+ */
+
+.splash-header {
+    width: 100%;
+    height: 670px;
+    line-height: 670px;
+    /*position: relative;*/
+}
+
+.splash-title {
+    font-size: 46px;
+    font-weight: 300;
+    letter-spacing: -1px;
+    text-align: center;
+    width: 100%;
+/*    height: 50px;
+    position: absolute;
+    top: 50%;
+    margin-top: -25px;*/
+}
+
+.splash-subtitle {
+    color: $grey-color;
+    font-size: 20px;
+    margin: -290px auto 200px auto;
+    padding-top: 10px;
+    width: 200px;
+    text-align: center;
+    border-top: 1px solid $grey-color;
+}
+
+/**
  * Site header
  */
 .site-header {
-    border-top: 5px solid $grey-color-dark;
-    border-bottom: 1px solid $grey-color-light;
     min-height: 56px;
+    margin-bottom: $spacing-unit;
 
     // Positioning context for the mobile navigation icon
     position: relative;
@@ -64,9 +96,7 @@
                 width: 18px;
                 height: 15px;
 
-                path {
-                    fill: $grey-color-dark;
-                }
+                
             }
         }
 
@@ -93,18 +123,47 @@
 }
 
 
+/**
+ * Mailing list 
+ */
+.mailing-form-col {
+    width: -webkit-calc( #{$content-width} / 2 - (#{$spacing-unit}));
+    width:         calc( #{$content-width} / 2 - (#{$spacing-unit}));
+    display: inline-block;
+}
+
+.mailing-form-col-1 {
+    text-align: right;
+    float: left;
+}
+
+.mailing-form-col-2 {
+    float: left;   
+}
+
+.form-label, .mailing-bullet {
+    font-size: 15px;
+    color: $grey-color;
+}
+
+
+input {
+    font-size: 11px;
+    font-style: italic;
+    color: #cccccc;
+}
 
 /**
  * Site footer
  */
 .site-footer {
-    border-top: 1px solid $grey-color-light;
     padding: $spacing-unit 0;
 }
 
 .footer-heading {
-    font-size: 18px;
+    font-size: 20px;
     margin-bottom: $spacing-unit / 2;
+    text-align: center;
 }
 
 .contact-list,
@@ -129,16 +188,19 @@
 .footer-col-1 {
     width: -webkit-calc(35% - (#{$spacing-unit} / 2));
     width:         calc(35% - (#{$spacing-unit} / 2));
+    margin: 0;
 }
 
 .footer-col-2 {
     width: -webkit-calc(20% - (#{$spacing-unit} / 2));
     width:         calc(20% - (#{$spacing-unit} / 2));
+    margin: 0;
 }
 
 .footer-col-3 {
     width: -webkit-calc(45% - (#{$spacing-unit} / 2));
     width:         calc(45% - (#{$spacing-unit} / 2));
+    margin: 0;
 }
 
 @include media-query($on-laptop) {
@@ -168,11 +230,12 @@
  * Page content
  */
 .page-content {
-    padding: $spacing-unit 0;
+    padding: $spacing-unit/2;
 }
 
 .page-heading {
     font-size: 20px;
+    text-align: center;
 }
 
 .post-list {
@@ -180,7 +243,7 @@
     list-style: none;
 
     > li {
-        margin-bottom: $spacing-unit;
+        margin-bottom: $spacing-unit / 2;
     }
 }
 
@@ -194,7 +257,11 @@
     font-size: 24px;
 }
 
-
+.page-prose {
+    font-size: 15px;
+    color: $grey-color;
+ 
+}
 
 /**
  * Posts
