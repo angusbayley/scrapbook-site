@@ -25,10 +25,11 @@ body {
     font-kerning: normal;
 
         /* Background image */
-    background: url("../med-splash-image.jpg");
-    background-size: 1300px;
-    background-position: calc(10px + 50%) 0px;
-    background-attachment: fixed;
+    background: url("../med-splash-image.jpg")  no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 

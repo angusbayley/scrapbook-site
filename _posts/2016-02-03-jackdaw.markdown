@@ -1,9 +1,0 @@
----
-layout: post
-title:  "Jackdaw, London"
-date:   2016-02-03 20:00:00 +0000
-categories: jekyll update
----
-First show of 2016 is at Jackdaw jazz cafe in Clapton (also pretty near Stoke Newington, for those that hear Clapton and freak out at how far away that sounds). This is fast becoming one of the go-to venues of the London scene after it started its Wednsesday series showcasing new experimental music, and Corrie Dick somehow managed to get *another* weekly residency.
-
-This will be a fun, intimate, vibey one.
