@@ -7,13 +7,13 @@
 
 # Site settings
 title: Scrapbook
-email: hello@scrapbook-band.com
+email: angusbayley@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Scrapbook is a London-based septet playing the music of Angus Bayley.
 baseurl: "/scrapbook-site" # the subpath of your site, e.g. /blog
 url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: scrapbook-band
-facebook_username: scrapbook-band
+twitter_username: angusbayley
+#facebook_username: scrapbook-band
 
 # Build settings
 markdown: kramdown
