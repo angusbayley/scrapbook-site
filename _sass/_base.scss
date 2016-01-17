@@ -184,7 +184,7 @@ pre {
     padding-right: $spacing-unit;
     padding-left: $spacing-unit;
     @extend %clearfix;
-    background-color: rgba(340,340,340,0.75);
+    background-color: rgba(340,340,340,0.8);
 
 
     @include media-query($on-laptop) {
