@@ -10,7 +10,7 @@ title: Scrapbook
 email: angusbayley@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Scrapbook is a London-based septet playing the music of Angus Bayley.
-baseurl: "http://scrapbook-music.com" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://scrapbook-music.com" # the base hostname & protocol for your site
 twitter_username: angusbayley
 #facebook_username: scrapbook-band
